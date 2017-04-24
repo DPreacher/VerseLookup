@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lvtxtpassage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lvtxttitle"
+        android:text="passage" />
+
+    <TextView
+        android:id="@+id/lvtxtchp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvtxtbook"
+        android:layout_alignBottom="@+id/lvtxtbook"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/lvtxtbook"
+        android:layout_toRightOf="@+id/lvtxtbook"
+        android:text="Chp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvtxtverse"
+        android:layout_alignBottom="@+id/lvtxtverse"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/lvtxtchp"
+        android:layout_toRightOf="@+id/lvtxtchp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/lvtxtverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvtxtchp"
+        android:layout_alignBottom="@+id/lvtxtchp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="verse" />
+
+    <TextView
+        android:id="@+id/lvtxttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text="Title"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lvtxtbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lvtxtpassage"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Book" />
+</RelativeLayout>
